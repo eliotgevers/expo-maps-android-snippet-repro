@@ -10,7 +10,7 @@ module.exports = {
       supportsTablet: true,
     },
     android: {
-      package: "com.eliotgevers.expomapssnippetrepro",
+      package: "com.example.expomapssnippetrepro",
       config: {
         googleMaps: {
           apiKey: process.env.GOOGLE_MAPS_ANDROID_API_KEY,

@@ -47,7 +47,7 @@ from local source instead of consuming the package's local Maven AAR.
 
 ## Additional note
 
-Passing `snippet: null` from JS is not a usable app-level workaround. In a local AeroVia test, forcing `snippet: null as unknown as string` caused Android to reject the `markers` prop with a native view-prop error.
+Passing `snippet: null` from JS is not a usable app-level workaround. In a local app test, forcing `snippet: null as unknown as string` caused Android to reject the `markers` prop with a native view-prop error.
 
 ## Relevant files
 
